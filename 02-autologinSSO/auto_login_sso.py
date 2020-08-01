@@ -54,11 +54,9 @@ data["lt"] = lt
 response = session.post('https://sso.ugm.ac.id/cas/login;jsessionid=07C11FADDB7E2690F6CD1458691CDD7A',
                         headers=headers_2, params=params, cookies=cookies, data=data)
 
-while True:
-    if ping("8.8.8.8") == True:
-        print("Login Success")
-    else:
-        print("Login Failure")
-    time.sleep(3600)
-
-
+# while True:
+if ping("8.8.8.8") == True:
+    print("Login Success")
+else:
+    print("Login Failure")
+    # time.sleep(3600)
