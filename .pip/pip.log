@@ -1,0 +1,30 @@
+------------------------------------------------------------
+/usr/bin/pip3 run on Fri Jul 31 01:37:26 2020
+Downloading/unpacking bs4
+  Getting page https://pypi.python.org/simple/bs4/
+  Could not fetch URL https://pypi.python.org/simple/bs4/: connection error: HTTPSConnectionPool(host='pypi.python.org', port=443): Max retries exceeded with url: /simple/bs4/ (Caused by <class 'socket.gaierror'>: [Errno -2] Name or service not known)
+  Will skip URL https://pypi.python.org/simple/bs4/ when looking for download links for bs4
+  Getting page https://pypi.python.org/simple/
+  Could not fetch URL https://pypi.python.org/simple/: connection error: HTTPSConnectionPool(host='pypi.python.org', port=443): Max retries exceeded with url: /simple/ (Caused by <class 'socket.gaierror'>: [Errno -2] Name or service not known)
+  Will skip URL https://pypi.python.org/simple/ when looking for download links for bs4
+  Cannot fetch index base URL https://pypi.python.org/simple/
+  URLs to search for versions for bs4:
+  * https://pypi.python.org/simple/bs4/
+  Getting page https://pypi.python.org/simple/bs4/
+  Could not fetch URL https://pypi.python.org/simple/bs4/: connection error: HTTPSConnectionPool(host='pypi.python.org', port=443): Max retries exceeded with url: /simple/bs4/ (Caused by <class 'socket.gaierror'>: [Errno -2] Name or service not known)
+  Will skip URL https://pypi.python.org/simple/bs4/ when looking for download links for bs4
+  Could not find any downloads that satisfy the requirement bs4
+Cleaning up...
+  Removing temporary dir /tmp/pip_build_ubuntu...
+No distributions at all found for bs4
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pip/basecommand.py", line 122, in main
+    status = self.run(options, args)
+  File "/usr/lib/python3/dist-packages/pip/commands/install.py", line 278, in run
+    requirement_set.prepare_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/usr/lib/python3/dist-packages/pip/req.py", line 1178, in prepare_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/usr/lib/python3/dist-packages/pip/index.py", line 277, in find_requirement
+    raise DistributionNotFound('No distributions at all found for %s' % req)
+pip.exceptions.DistributionNotFound: No distributions at all found for bs4
