@@ -1,0 +1,6 @@
+- name: log_sqlite
+  config:
+    file: "var/lib/dionaea/dionaea.sqlite"
+- name: log_sqlite
+  config:
+    file: "var/lib/dionaea/dionaea-duplicate.sqlite"

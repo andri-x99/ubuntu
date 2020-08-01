@@ -1,0 +1,4 @@
+* * * * * /bin/sh  /home/ubuntu/01-syncronization/sync_binaries777.sh
+* * * * * python3 /home/ubuntu/02-autologinSSO/auto_login_sso.py
+* * * * * cp /home/ubuntu/cp_resolv.conf /etc/resolv.conf
+
