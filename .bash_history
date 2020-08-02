@@ -78,3 +78,11 @@ sudo su
 ifconfig
 crontab -e
 sudo su
+ls
+cd binaries777_from_dionaea/
+ls
+cat 0e2c26e33529f222261542aa7602895e 
+ls
+cat 685bc2af410d86a742b59b96d116a7d9 
+cls
+clear
