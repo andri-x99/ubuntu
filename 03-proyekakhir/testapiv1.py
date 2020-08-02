@@ -6,7 +6,7 @@ app = Flask('hehe')
 
 # Melakukan koneksi ke database
 def database():
-    con = sqlite3.connect('logsql-internet.sqlite')
+    con = sqlite3.connect('dionaea.sqlite')
     return con
 
 # Cursor

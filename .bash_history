@@ -86,3 +86,6 @@ ls
 cat 685bc2af410d86a742b59b96d116a7d9 
 cls
 clear
+ls
+./gigit.sh 
+sudo su
