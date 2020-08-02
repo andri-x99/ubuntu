@@ -1,6 +1,5 @@
 import sqlite3, time, threading
 from flask import jsonify, request, Flask, json
-from dictor import dictor
 
 app = Flask('hehe')
 
