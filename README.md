@@ -33,4 +33,4 @@
 ![alt text](https://github.com/andri-x99/ubuntu/blob/master/picture/15-mongod-start.png)
 13. Install git pada server, lalu clone repository https://github.com/andri-x99/ubuntu.git
 14. Masuk ke folder 03-proyekakhir, edit file request_api.py, dan ganti semua IP menjadi IP Honeypot, lalu jalankan python3 update_data.py
-
+![alt text](https://github.com/andri-x99/ubuntu/blob/master/picture/16-eksekusi.png)
