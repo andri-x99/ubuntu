@@ -34,3 +34,5 @@
 13. Install git pada server, lalu clone repository https://github.com/andri-x99/ubuntu.git
 14. Masuk ke folder 03-proyekakhir, edit file request_api.py, dan ganti semua IP menjadi IP Honeypot, lalu jalankan python3 update_data.py
 ![alt text](https://github.com/andri-x99/ubuntu/blob/master/picture/16-eksekusi.png)
+15. Hasilnya seperti ini, konversi dari 11 tabel SQLITE menuju MongoDB Embedded (collection : embedded)
+![alt text](https://github.com/andri-x99/ubuntu/blob/master/picture/17-lihat-robo3t.png)
