@@ -10,6 +10,7 @@
 5. Pastikan service Honeypot telah berjalan menggunakan perintah "lsof -i -n -P" atau "netstat -tlpn"
 ![alt text](https://github.com/andri-x99/ubuntu/blob/master/picture/6-dionaea-services.png)
 6. Edit pada bagian /opt/dionaea/lib/dionaea/python/dionaea/log_db_sql/model.py, agar ketika membuat database sudah ada AUTO_INCREMENT, sehingga ketika data dihapus, maka hanya perlu melanjutkan angka setelahnya, tidak kembali ke angka 1 (mencegah data yang tertumpuk)
+
 ![alt text](https://github.com/andri-x99/ubuntu/blob/master/picture/0-edit_dionaea_auto_increment_base_in_model.png)
 7. Edit pada bagian /opt/dionaea/lib/dionaea/python/dionaea/logsql.py, pastikan ketika mengupdate tabel baru, menggunakan AUTO_INCREMENT, ini bertujuan agar ketika dihapus tabelnya, maka akan melanjutkan proses penomoran secara otomatisnya, sehingga tidak terjadi penumpukan id yang sama
 ![alt text](https://github.com/andri-x99/ubuntu/blob/master/picture/1-edit_dionaea_auto_increment_update_in_logsql.png)
