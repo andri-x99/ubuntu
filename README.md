@@ -27,8 +27,8 @@
 
 ![alt text](https://github.com/andri-x99/ubuntu/blob/master/picture/14-copy-opt.png)
 
-11. Jalankan menggunakan perintah python3 api.py, apabila library tidak ditemukan, install pip terlebih dahulu, kemudian install paketnya menggunakan pip
+11. Jalankan menggunakan perintah python3 api.py, apabila library tidak ditemukan, install pip terlebih dahulu, kemudian install paketnya menggunakan pip, sesuaikan IP nya pada bagian bawah dengan IP Honeypot yang akan digunakan
 12. Kemudian sebagai tempat penampungan log dari honeypot, membutuhkan server yang sudah terinstall mongodb
 13. Install git pada server, lalu clone repository https://github.com/andri-x99/ubuntu.git
-14. Masuk ke foler 03-proyekakhir, jalankan python3 update_data.py
+14. Masuk ke folder 03-proyekakhir, edit file request_api.py, dan ganti semua IP menjadi IP Honeypot, lalu jalankan python3 update_data.py
 
