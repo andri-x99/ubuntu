@@ -4,7 +4,7 @@
 2. Masuk ke alamat IP MHN, misal 10.33.109.126
 ![alt text](https://github.com/andri-x99/ubuntu/blob/master/picture/3-mhn.png)
 3. Pilih Menu Deploy, kemudian cari Honeypot yang diinginkan, misal Dionaea
-![alt text](https://github.com/andri-x99/ubuntu/blob/master/picture/4-raspi-deploy.png.png)
+![alt text](https://github.com/andri-x99/ubuntu/blob/master/picture/4-raspi-deploy.png)
 4. Copy "Deploy Command" menuju perangkat yang ingin dijadikan sebagai Honeypot
 ![alt text](https://github.com/andri-x99/ubuntu/blob/master/picture/5-raspi-deploy.png)
 5. Pastikan service Honeypot telah berjalan menggunakan perintah "lsof -i -n -P" atau "netstat -tlpn"
