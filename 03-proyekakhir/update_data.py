@@ -393,19 +393,3 @@ class updateData():
 
 while True:
     updateData.insertUpdateData()
-
-
-
-
-
-# insert into connections(connection_type, connection_transport, connection_protocol, connection_timestamp, connection_root, connection_parent, local_host, local_port, remote_host, remote_hostname, remote_port)
-# VALUES ("diterima","bus","http","1346788279.80099","999","","10.33.109.99","80","1.1.1.1","","14045");
-
-# insert into logins(connection,login_username,login_password) values (2553, "coba4", "satuaja")
-
-# DELETE FROM connections where connection=2553
-
-# https://www.it-swarm.dev/id/mysql/bagaimana-cara-menambahkan-auto-increment-ke-kolom-yang-ada/971783600/
-# ALTER TABLE connections MODIFY id INTEGER NOT NULL AUTO_INCREMENT;
-
-# https://medium.com/@kiddy.xyz
