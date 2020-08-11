@@ -1,4 +1,4 @@
-# ubuntu
+# Penerusan Data Serangan Honeypot Dionaea
 
 1. Deploy MHN terlebih dahulu : https://github.com/pwnlandia/mhn
 2. Masuk ke alamat IP MHN, misal 10.33.109.126
