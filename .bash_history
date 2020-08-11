@@ -89,3 +89,14 @@ clear
 ls
 ./gigit.sh 
 sudo su
+ls
+ping google.com
+sudo su
+ls
+ping google.com
+cd 01-syncronization/
+ls
+crontab -e
+sudo su
+s
+sudo su
